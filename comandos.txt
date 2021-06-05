@@ -1,0 +1,16 @@
+// configurar o git
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe@example.com
+
+// listar usuario
+    git config --list
+
+// Gerar uma nova chave SSH
+    GIT 
+
+
+1 - git status // verrificar os arquivos que foram alterados
+2 - git add . // adicionar os arquivos na stage area
+3 - git commit -m "Texto para idetificar a alteração no projeto" // comitar as alterações
+4 - git push origin master // Enviar as alterações da maquina para o github
+5 - git pull origin master // Atualizar o projeto do github para a maquina local

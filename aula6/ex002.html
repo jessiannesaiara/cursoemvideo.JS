@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Programa</title>
+    <style>
+        body {
+            background-color: rgb(185, 231, 187);
+            color: black;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+
+   <script>
+       
+      var n1 = Number(window.prompt('Digite um número')) //string
+      var n2 = Number(window.prompt('Digite outro número')) // string
+      var s = n1 + n2
+      //1 window.alert('A soma dos valores é ' + String(s)  )//concatenação
+       // (number + number) para adição
+       // (string + string) para concatenação
+       // Number.ParseInt (usado para número inteiro)
+       // Number.PartFloat (usado para númerod decimal)
+       // Number (n)  é feita a conversão pelo proóprio J.S
+       // Se quiser conversão de número para string usa string (n) ou n.tostring()
+
+       // Formatando strings
+       /* var s = 'JavaScript'
+       'Eu estou aprendendo s' (Não faz interpolação)
+       ' Eu estou aprendendo + s' ( usa concatenação)
+       `Eu estou aprendendo ${s}` (usa template string, lembrar de usar 
+       crase)
+       s.lenght() ( quantos caracters a string tem
+       s.toUpperCase() (tudo para MAIÚSULAS)
+       s.toLowerCase() (tudo para Minúsculas)*/
+
+
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+   </script>
+</body>
+</html>
